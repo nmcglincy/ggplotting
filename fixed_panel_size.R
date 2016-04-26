@@ -8,8 +8,8 @@ fixed_panel_size <- function(p = NULL,
   require(ggplot2)
   require(grid)
 
-  margin = unit(1,"mm"),
-  width=unit(w, "in"), 
+  margin = unit(1,"mm")
+  width=unit(w, "in")
   height=unit(h, "in")
 
   panels <- grep("panel", g$layout$name)
