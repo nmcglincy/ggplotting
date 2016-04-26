@@ -37,5 +37,5 @@ fixed_panel_size <- function(p = NULL,
             valueOnly = TRUE))
   g
 }
-
-# print.fixed <- function(x) grid.draw(x)
+# a function for when you just want to print the plot to the graphics device
+print.fixed <- function(x) grid.draw(x)
